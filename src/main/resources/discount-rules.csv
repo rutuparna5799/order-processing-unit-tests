@@ -3,4 +3,4 @@ baseTotal,isPremium,festival,expectedDiscountPercent
 25000,false,false,10
 25000,true,false,15
 25000,true,true,20
-100000,true,true,25
+100000,true,true,20

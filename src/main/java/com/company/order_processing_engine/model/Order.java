@@ -12,6 +12,7 @@ public class Order {
         private double discount;
         private double tax;
 
+        private boolean festivalOffer;
 
         // No-args constructor
         public Order() {
@@ -84,6 +85,14 @@ public class Order {
 
         public void setTax(double tax) {
                 this.tax = tax;
+        }
+
+        public boolean isFestivalOffer() {
+                return festivalOffer;
+        }
+
+        public void setFestivalOffer(boolean festivalOffer) {
+                this.festivalOffer = festivalOffer;
         }
 
 }
